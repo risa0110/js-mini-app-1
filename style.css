@@ -3,3 +3,14 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 75%;
+    height: 95%;
+}
+#game-section{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3% 1%;
+}
