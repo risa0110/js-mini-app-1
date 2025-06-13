@@ -1,13 +1,13 @@
 const board = document.querySelector('.game-board');
 const cardsArray = Array.from(document.querySelectorAll('.card'));
 
-// shuffle tha cards
+// Mezclar cartas
 for (let i = cardsArray.length - 1; i > 0; i--) {
   const j = Math.floor(Math.random() * (i + 1));
   [cardsArray[i], cardsArray[j]] = [cardsArray[j], cardsArray[i]];
 }
 
-// put them back in the game
+// Agregarlas de nuevo al tablero
 cardsArray.forEach(card => board.appendChild(card));
 
 const cards = document.querySelectorAll('.card');

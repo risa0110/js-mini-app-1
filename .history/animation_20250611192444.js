@@ -1,3 +1,4 @@
+HEAD
 const board = document.querySelector('.game-board');
 const cardsArray = Array.from(document.querySelectorAll('.card'));
 
